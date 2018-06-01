@@ -1,5 +1,6 @@
 %This function describes the motion of quadrotor as translation motion in
 %x y z axis
+%This is the file with rotation
 function [x,t,v]=integrate(N,h,m)
 v(1,:)=[10 10 0];
 x(1,:) =[5 6 0];
